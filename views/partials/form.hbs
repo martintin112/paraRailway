@@ -1,0 +1,42 @@
+<h1>Ingrese Productos</h1>
+<div class="container-fluid">
+  <form onsubmit="return postProducto()">
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Nombre del Producto</label>
+      <input
+        id="nombre"
+        type="text"
+        class="form-control"
+        id="formGroupExampleInput"
+        placeholder="iphone 13"
+        name="nombre"
+        required="true"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Precio del producto</label>
+      <input
+        id="precio"
+        type="number"
+        class="form-control"
+        id="formGroupExampleInput"
+        placeholder="1000"
+        name="precio"
+        required="true"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">URL de la imagen</label>
+      <input
+        id="imagen"
+        type="text"
+        class="form-control"
+        id="formGroupExampleInput"
+        placeholder="http://imagen.com"
+        name="imagen"
+        required="true"
+      />
+    </div>
+    <button type="submit" class="btn btn-secondary">Cargar Producto</button>
+  </form>
+</div>

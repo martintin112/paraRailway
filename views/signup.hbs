@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <h1>Registrarse</h1>
+  <form method="post" action="/signup">
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Nombre de usuario</label>
+      <input
+        id="input-usuario"
+        type="text"
+        class="form-control"
+        id="formGroupExampleInput"
+        placeholder="ingrese su usuario"
+        name="username"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Contraseña</label>
+      <input
+        id="input-contraseña"
+        type="password"
+        class="form-control"
+        id="formGroupExampleInput"
+        placeholder="ingrese su contraseña"
+        name="password"
+      />
+    </div>
+    <button type="submit" class="btn btn-secondary">Signup</button>
+  </form>
+  <a href="./login" class="btn btn-secondary">Login</a>
+</div>

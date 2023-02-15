@@ -1,0 +1,8 @@
+<div class="container-fluid">
+  <h1>Usted no esta autorizado a entrar a la seccion privada</h1>
+  <h3>Porque su condicion de administrador es: <span>{{admin}}</span></h3>
+</div>
+<script>
+  const timer = () => { setTimeout(() => { location.href = '/login' }, 10000); }
+  timer()
+</script>
